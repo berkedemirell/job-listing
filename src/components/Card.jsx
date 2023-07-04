@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../data/data.json";
+import data from "/src/data/data.json";
 /* eslint-disable react/prop-types */
 
 export const Card = (props) => {
@@ -25,7 +25,7 @@ export const Card = (props) => {
             )}
             <div className="flex flex-row gap-4 items-center deneme">
               <div className="foto">
-                <img src={info.logo} alt="" />
+                <img src={info.logo} alt="images don't show up with tailwind 🤷‍♂️" />
               </div>
               <div className="flex flex-col gap-2">
                 <div className="flex flex-row gap-4 items-center">
