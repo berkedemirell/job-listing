@@ -1,5 +1,5 @@
 import React from "react";
-import data from "/src/data/data.json";
+import data from "/data/data.json";
 /* eslint-disable react/prop-types */
 
 export const Card = (props) => {
