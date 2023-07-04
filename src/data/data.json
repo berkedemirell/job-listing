@@ -77,7 +77,7 @@
   {
     "id": 6,
     "company": "FaceIt",
-    "logo": "/src/images/faceit.svg",
+    "logo": "./src/images/faceit.svg",
     "new": false,
     "featured": false,
     "position": "Junior Backend Developer",
