@@ -11,7 +11,6 @@ export const Card = (props) => {
       props.setCategory([...props.category, e.target.id]);
     }
   };
-
   return (
     <div className="w-full flex-col flex items-center justify-center gap-4 card-div">
       {data.map((info, i) => {
