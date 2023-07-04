@@ -3,8 +3,8 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx,svg,png}",
-    "./App.jsx",
-    "./main.jsx"
+    "./src/App.jsx",
+    "./src/main.jsx"
   ],
   theme: {
     extend: {},
