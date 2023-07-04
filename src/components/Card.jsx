@@ -1,5 +1,6 @@
 import React from "react";
 import data from "/src/data/data.json";
+import '/src/images/account.svg'
 /* eslint-disable react/prop-types */
 
 export const Card = (props) => {
@@ -24,7 +25,7 @@ export const Card = (props) => {
             )}
             <div className="flex flex-row gap-4 items-center deneme">
               <div className="foto">
-                <img src={`./${info.logo}`} alt="problem with imgs 🤷‍♂️" />
+                <img src={`${info.logo}`} alt="problem with imgs 🤷‍♂️" />
               </div>
               <div className="flex flex-col gap-2">
                 <div className="flex flex-row gap-4 items-center">
