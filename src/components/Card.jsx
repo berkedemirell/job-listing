@@ -1,6 +1,6 @@
 import React from "react";
 import data from "/src/data/data.json";
-import '/src/images/account.svg'
+import "/src/images/account.svg";
 /* eslint-disable react/prop-types */
 
 export const Card = (props) => {
@@ -48,7 +48,10 @@ export const Card = (props) => {
                   </div>
                 </div>
                 <div className="position">
-                  <a href="#" className="text-slate-900 hover:text-cyan-700 text-2xl font-bold">
+                  <a
+                    href="#"
+                    className="text-slate-900 hover:text-cyan-700 text-2xl font-bold"
+                  >
                     {info.position}
                   </a>
                 </div>
@@ -71,7 +74,10 @@ export const Card = (props) => {
                 </span>
               </button>
               <button onClick={handleCat}>
-                <span id={info.level} className="bg-sky-100 text-cyan-700 p-2 rounded-md font-bold hover:bg-cyan-700 hover:text-slate-100">
+                <span
+                  id={info.level}
+                  className="bg-sky-100 text-cyan-700 p-2 rounded-md font-bold hover:bg-cyan-700 hover:text-slate-100"
+                >
                   {info.level}
                 </span>
               </button>
