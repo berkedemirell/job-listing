@@ -6,7 +6,9 @@ export default {
     "./src/components/Filtered.jsx",
     "./src/components/Header.jsx",
     "./src/App.jsx",
-    "./src/main.jsx"
+    "./src/main.jsx",
+    "./src/images",
+    "./src/data/data.json"
   ],
   theme: {
     extend: {},
