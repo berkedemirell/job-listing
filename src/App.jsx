@@ -14,6 +14,18 @@ function App() {
   //   setCat(e.target.value);
   // };
 
+  const clearCacheData = () => {
+    caches.keys().then((names) => {
+        names.forEach((name) => {
+            caches.delete(name);
+        });
+    });
+    alert('Complete Cache Cleared')
+};
+
+clearCacheData();
+
+
   const newData = data.map((data) => data);
 
   const modified = newData.map((info) => {

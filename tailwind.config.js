@@ -11,7 +11,9 @@ export default {
     "./src/data/data.json"
   ],
   theme: {
-    extend: {},
+    extend: {
+      "images": "./src/images"
+    },
   },
   plugins: [],
 }
