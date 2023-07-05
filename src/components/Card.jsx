@@ -1,6 +1,7 @@
 import React from "react";
 import data from "/src/data/data.json";
-import img1 from '/src/images/account.svg';
+import '/src/images/account.svg';
+import '/src/images/photosnap.svg';
 /* eslint-disable react/prop-types */
 
 export const Card = (props) => {

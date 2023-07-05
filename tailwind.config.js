@@ -2,7 +2,9 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx,svg,png}",
+    "./src/components/Card.jsx",
+    "./src/components/Filtered.jsx",
+    "./src/components/Header.jsx",
     "./src/App.jsx",
     "./src/main.jsx"
   ],
